@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+    int contador = 0;
+    while (1) {
+        printf("Contador: %d\n", contador);
+        contador++;
+
+    char nome[50];
+    int codigo;
+    float codigo de barras, preço;
+
+ 
+    printf("=== Sistema Cadastro ===\n\n");
+ 
+    printf("Digite o nome: ");
+    scanf("%49s", nome);
+   
+    printf("Digite sua idade: ");
+    scanf("%d", &codigo);
+
+    printf("Digite sua altura (em metros): ");
+    scanf("%f", &codigo_de_barras);
+
+    printf("Digite seu peso (em kg): ");
+    scanf("%f", &preço);
+    
+    printf("\n=== Dados Cadastrados ===\n");
+    printf("Nome: %s\n", nome);
+    printf("Codigo: %d sku\n", codigo);
+    printf("codigo_de_barras: %.2f \n", codigo_de_barras);
+    printf("Preço: %.2f R$\n", preço);
+   
+    if (contador >= 5) { // Condição para parar
+            break; // Sai do loop
+        }
+    }
+    printf("Loop interrompido!\n");
+    return 0;
+   
+}
